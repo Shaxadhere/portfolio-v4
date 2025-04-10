@@ -1,0 +1,12 @@
+---
+import ProjectCard from "./ProjectCard.astro";
+import { PORTFOLIO } from "../constants/portfolio.constants";
+---
+
+<div class="grid grid-cols-2 sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-3  gap-6 mb-10">
+  {
+    new Array(4)
+      .fill(null)
+      .map((item) => <ProjectCard project={PORTFOLIO.EVOLV_LMS_ADMIN} />)
+  }
+</div>

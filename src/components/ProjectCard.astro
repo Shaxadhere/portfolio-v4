@@ -1,0 +1,76 @@
+---
+const { project } = Astro.props;
+---
+
+<div class="border border-[#bcbcbc] rounded-md overflow-hidden flex">
+  <img
+    src={project.images.at(0)}
+    alt="Onshore App Design"
+    class="w-48 h-48 object-cover rounded-[6px] m-[6px]"
+  />
+  <div class="p-4 w-full flex flex-col justify-center relative">
+    <div class="flex items-center text-xs text-gray-400 absolute top-2 right-2">
+      <svg
+        class="w-4 h-4 mr-1"
+        fill="none"
+        stroke="currentColor"
+        viewBox="0 0 24 24"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
+        ></path>
+      </svg>
+      Feb 6 2019
+    </div>
+    <div class="flex justify-between items-start mb-1">
+      <div>
+        <h3 class="font-bold text-lg">{project.name}</h3>
+        <p class="text-gray-500 text-sm">Surf app concept</p>
+      </div>
+    </div>
+    <div class="flex gap-4 items-center mt-3">
+      <div class="flex items-center">
+        <div
+          class="w-6 h-6 rounded-full bg-pink-500 flex items-center justify-center text-white text-xs mr-2"
+        >
+          Xd
+        </div>
+        <span class="text-sm">Adobe XD</span>
+      </div>
+      <div class="flex items-center space-x-3">
+        <div class="flex items-center">
+          <svg
+            class="w-4 h-4 text-gray-400 mr-1"
+            fill="currentColor"
+            viewBox="0 0 20 20"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
+              clip-rule="evenodd"></path>
+          </svg>
+          <span class="text-sm">150</span>
+        </div>
+        <div class="flex items-center">
+          <svg
+            class="w-4 h-4 text-gray-400 mr-1"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z"
+            ></path>
+          </svg>
+          <span class="text-sm">12</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

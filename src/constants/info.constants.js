@@ -1,7 +1,8 @@
 export const INFO = {
     NAME: "Shehzad Ahmed",
+    PROFILE_PICTURE: "/img/me/shehzad-ahmed.jpg",
     USERNAME: "shaxadhere",
-    DESCRIPTION: "Host of @Epicurrence. Freelance Designer. Filmmaker. Father of 3 girls. #vanlife #remotelife",
+    DESCRIPTION: "Building next-gen fintech product @SimpliFiGo.com",
     LOCATION: "Karachi, Pakistan",
     LINKS: {
         GITHUB: "https://github.com/shaxadhere",
@@ -13,13 +14,16 @@ export const INFO = {
     },
     TEAMS: {
         EVOLV_SYSTEMS: {
-
+            logo: "https://avatars.githubusercontent.com/u/134615525?s=200&v=4"
         },
-        SIMPLIFI:{
-
+        SIMPLIFI: {
+            logo: "https://simplifipay.com/images/image.png"
         },
     },
     FOLDERS: {
+        FEATURED: {
+
+        },
         LANDING_PAGES: {
 
         },

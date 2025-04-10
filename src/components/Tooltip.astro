@@ -1,0 +1,15 @@
+---
+const { label, render } = Astro.props;
+---
+
+<div class="relative group cursor-pointer">
+  <div
+    class="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2
+  hidden group-hover:block
+  px-3 py-1 text-sm text-white bg-gray-800 rounded
+  whitespace-nowrap z-10 shadow-lg"
+  >
+    {label}
+  </div>
+  <div set:html={render} />
+</div>
