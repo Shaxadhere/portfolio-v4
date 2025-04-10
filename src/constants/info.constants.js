@@ -4,6 +4,7 @@ export const INFO = {
     USERNAME: "shaxadhere",
     DESCRIPTION: "Building next-gen fintech product @SimpliFiGo.com",
     LOCATION: "Karachi, Pakistan",
+    HIRE_ME: "https://shehzadahmed.me/Shehzad%20Ahmed%20Frontend%20Engineer.pdf",
     LINKS: {
         GITHUB: "https://github.com/shaxadhere",
         TWITTER: "https://twitter.com/shaxadhere",

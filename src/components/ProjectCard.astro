@@ -2,14 +2,14 @@
 const { project } = Astro.props;
 ---
 
-<div class="border border-[#bcbcbc] rounded-md overflow-hidden flex">
+<div class="bg-white rounded-md overflow-hidden flex">
   <img
     src={project.images.at(0)}
     alt="Onshore App Design"
-    class="w-48 h-48 object-cover rounded-[6px] m-[6px]"
+    class="w-48 h-48 object-cover"
   />
   <div class="p-4 w-full flex flex-col justify-center relative">
-    <div class="flex items-center text-xs text-gray-400 absolute top-2 right-2">
+    <div class="flex items-center text-xs text-gray-400 absolute top-4 right-4">
       <svg
         class="w-4 h-4 mr-1"
         fill="none"
