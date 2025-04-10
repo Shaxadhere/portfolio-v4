@@ -1,0 +1,14 @@
+---
+import { INFO } from "../constants/info.constants";
+---
+
+<div>
+  <h3 class="font-medium mb-3">Teams</h3>
+  <div class="flex items-center space-x-2">
+    {
+      Object.keys(INFO.TEAMS).map((key) => (
+        <div class="w-10 h-10 bg-orange-500 rounded-full" title={key} />
+      ))
+    }
+  </div>
+</div>
