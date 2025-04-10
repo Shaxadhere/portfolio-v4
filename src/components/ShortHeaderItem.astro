@@ -1,8 +1,10 @@
 ---
-const { title, subtitle } = Astro.props;
+const { title, subtitle, href } = Astro.props;
 ---
 
-<div class="flex items-center cursor-pointer">
-  <span class="font-medium mr-2">{title}</span>
-  <span class="text-gray-500">{subtitle}</span>
-</div>
+<a href={href}>
+  <div class="flex items-center cursor-pointer">
+    <span class="font-medium mr-2">{title}</span>
+    <span class="text-gray-500">{subtitle}</span>
+  </div>
+</a>

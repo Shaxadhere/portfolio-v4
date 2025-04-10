@@ -1,0 +1,56 @@
+/* small to medium mobile screens media query */
+@media (max-width: 768px) {
+  .project-grid {
+    /* one column only */
+    grid-template-columns: 1fr;
+  }
+}
+/* large mobile screens media query */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .project-grid {
+    /* two columns only */
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+/* desktop screens media query */
+@media (min-width: 1025px) {
+  .project-grid {
+    /* three columns only */
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+/* large desktop screens media query */
+@media (min-width: 1200px) {
+  .project-grid {
+    /* four columns only */
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+/* extra large desktop screens media query */
+@media (min-width: 1400px) {
+  .project-grid {
+    /* five columns only */
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+/* extra extra large desktop screens media query */
+@media (min-width: 1600px) {
+  .project-grid {
+    /* six columns only */
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+/* extra extra large desktop screens media query */
+@media (min-width: 2000px) {
+  .project-grid {
+    /* six columns only */
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+/* 4k screens media query */
+@media (min-width: 2560px) {
+  .project-grid {
+    /* seven columns only */
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

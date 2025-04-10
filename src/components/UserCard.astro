@@ -3,7 +3,7 @@ import { INFO } from "../constants/info.constants";
 import Tooltip from "./Tooltip.astro";
 ---
 
-<div class="flex flex-col items-center mb-6">
+<div class="flex flex-col items-start mb-6">
   <div class="relative mb-4">
     <img
       src={INFO.PROFILE_PICTURE}
@@ -33,22 +33,22 @@ import Tooltip from "./Tooltip.astro";
   </div>
   <h1 class="text-2xl font-bold">{INFO.NAME}</h1>
   <p class="text-gray-500 mb-2">@{INFO.USERNAME}</p>
-  <p class="text-center text-sm text-gray-600 mb-4">
+  <p class="text-sm text-gray-600 mb-3">
     {INFO.DESCRIPTION}
   </p>
-  <div class="flex space-x-4 mb-4">
-    <a href="#" class="text-gray-500 hover:text-gray-700">
+  <div class="flex space-x-4 mb-3">
+    <a href="#" class="text-gray-500 hover:text-gray-700 text-xl">
       <i class="fab fa-twitter"></i>
     </a>
-    <a href="#" class="text-gray-500 hover:text-gray-700">
+    <a href="#" class="text-gray-500 hover:text-gray-700 text-xl">
       <i class="fab fa-instagram"></i>
     </a>
-    <a href="#" class="text-gray-500 hover:text-gray-700">
+    <a href="#" class="text-gray-500 hover:text-gray-700 text-xl">
       <i class="fab fa-facebook"></i>
     </a>
   </div>
   <a
-    class="w-full bg-black text-center text-white py-2 px-4 rounded-md hover:bg-gray-800 transition cursor-pointer"
+    class="w-full bg-black text-center text-white py-3 px-4 rounded-md hover:bg-gray-800 transition cursor-pointer"
     href={INFO.HIRE_ME}
     target="_blank"
   >
